@@ -52,7 +52,11 @@ const About = () => {
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
               We're a fresh, energetic IT startup with a big heart and even bigger ideas. 
+<<<<<<< HEAD
               Sorven was born out of a simple belief. Technology should make life easier, not more complicated.
+=======
+              Sorven was born out of a simple belief: Technology should make life easier, not more complicated.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
             </p>
           </div>
         </div>
@@ -68,7 +72,17 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-slate-900 p-8 md:p-12 rounded-2xl shadow-xl">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
+<<<<<<< HEAD
                 We're here to help businesses grow online with smart websites and intelligent AI tools that solve real problems and create meaningful digital experiences. We make tech easy, useful, and accessible. So our clients can focus on what they do best.
+=======
+                Whether you're a small business trying to grow or a big company looking to innovate, 
+                we're here to help you make tech work for you. We build smart, scalable, and secure 
+                solutions—from cloud services and custom software to IT consulting and support.
+              </p>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                But more than that, we're your tech partners, your problem-solvers, and your biggest cheerleaders.
+                We make tech easy, useful, and accessible—so our clients can focus on what they do best.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </p>
             </div>
           </div>
@@ -85,7 +99,13 @@ const About = () => {
                 <h3 className="text-3xl font-bold text-white">Our Mission</h3>
               </div>
               <p className="text-lg text-gray-300 leading-relaxed">
+<<<<<<< HEAD
                 To be the go to tech partner for startups and enterprises, and to become a trusted name in web and AI development by building solutions that are fast, reliable and future ready.
+=======
+                We're here to help businesses grow online with smart websites and intelligent AI tools 
+                that solve real problems and create meaningful digital experiences. We make tech easy, 
+                useful, and accessible—so our clients can focus on what they do best.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </p>
             </div>
 
@@ -95,10 +115,15 @@ const About = () => {
                 <h3 className="text-3xl font-bold text-white">Our Vision</h3>
               </div>
               <p className="text-lg text-gray-300 leading-relaxed">
+<<<<<<< HEAD
                 Whether you're a small business trying to grow or a big company looking to innovate, we're here to help you make tech work for you. We build smart, scalable, and secure solutions from cloud services and custom software to IT consulting and support.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed mt-4">
                 But more than that, we're your tech partners, your problem-solvers, and your biggest cheerleaders. We make tech easy, useful, and accessible—so our clients can focus on what they do best.
+=======
+                To be the go-to tech partner for startups and enterprises, and to become a trusted name 
+                in web and AI development by building solutions that are fast, reliable and future ready.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </p>
             </div>
           </div>

@@ -54,7 +54,11 @@ const Footer = () => {
               <span className="text-2xl font-bold text-white">SORVEN</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
+<<<<<<< HEAD
               Empowering Businesses with Innovation. We make technology work for you.
+=======
+              Empowering Businesses with Next-Gen Solutions. We make technology work for you.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (

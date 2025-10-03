@@ -30,7 +30,11 @@ const Logo = ({ size = 48, className = "" }: LogoProps) => {
         </defs>
         
         <image
+<<<<<<< HEAD
           href="/Logo.png"
+=======
+          href="/logo-img.png"
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
           x="0"
           y="0"
           width="48"

@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import { ArrowRight, Code, Smartphone, TrendingUp, Bot, Video } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 import { Shield, Zap, Code2, Cloud } from 'lucide-react';
+=======
+import { ArrowRight, Code, Smartphone, TrendingUp, Bot, Video, CheckCircle } from 'lucide-react';
+import ContactForm from '../components/ContactForm';
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
 
 const Home = () => {
   const services = [
@@ -38,6 +43,7 @@ const Home = () => {
   ];
 
   const features = [
+<<<<<<< HEAD
     {
       icon: Shield,
       title: 'Cybersecurity Solutions',
@@ -54,12 +60,19 @@ const Home = () => {
       icon: Cloud,
       title: 'Microservices Architecture',
     },
+=======
+    'Fast & Modern Solutions',
+    'Mobile-First Design',
+    'SEO Optimized',
+    'Scalable Architecture'
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
   ];
 
   return (
     <div className="min-h-screen bg-slate-900">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden">
+<<<<<<< HEAD
 
         {/* Animated Background and Floating Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
@@ -71,6 +84,8 @@ const Home = () => {
         <div className="absolute bottom-40 left-20 w-3 h-3 bg-blue-300 rounded-full animate-ping delay-500"></div>
         <div className="absolute bottom-20 right-40 w-5 h-5 bg-cyan-300 rounded-full animate-pulse delay-700"></div>
       </div>
+=======
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-600/20 via-slate-900/50 to-slate-900"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -78,11 +93,20 @@ const Home = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Empowering Businesses with{' '}
               <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+<<<<<<< HEAD
                 Innovation
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
               Innovating at the intersection of technology and intelligence, we craft AI driven solutions that solves real-world challenges.
+=======
+                Next-Gen Solutions
+              </span>
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+              We make technology work for you. From smart websites to AI integration, 
+              we're your tech partners in digital transformation.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -100,6 +124,7 @@ const Home = () => {
                 <span>Learn More</span>
               </Link>
             </div>
+<<<<<<< HEAD
             {/* Subtitle Above Boxes */}
         <div className="mb-5 max-w-3xl mx-auto text-center animate-fade-in animate-delay-500">
           <p className="text-base md:text-lg text-gray-300 font-medium">
@@ -144,6 +169,20 @@ const Home = () => {
 
       </section>
       
+=======
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
+              {features.map((feature) => (
+                <div key={feature} className="flex items-center justify-center space-x-2 text-gray-300">
+                  <CheckCircle size={16} className="text-cyan-400 flex-shrink-0" />
+                  <span className="text-sm">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
 
       {/* About Section */}
       <section className="py-24 bg-slate-800">
@@ -154,7 +193,11 @@ const Home = () => {
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               We're a fresh, energetic IT startup with a big heart and even bigger ideas. 
+<<<<<<< HEAD
               Sorven was born out of a simple belief. Technology should make life easier, not more complicated.
+=======
+              Sorven was born out of a simple belief: Technology should make life easier, not more complicated.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
             </p>
           </div>
 
@@ -162,14 +205,24 @@ const Home = () => {
             <div className="bg-slate-900 p-8 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed">
+<<<<<<< HEAD
                 To be the go-to tech partner for startups and enterprises, and to become a trusted name in web and AI development by building solutions that are fast, reliable and future ready.
+=======
+                We're here to help businesses grow online with smart websites and intelligent AI tools 
+                that solve real problems and create meaningful digital experiences.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </p>
             </div>
             
             <div className="bg-slate-900 p-8 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-300 leading-relaxed">
+<<<<<<< HEAD
                 Whether you're a small business trying to grow or a big company looking to innovate, we're here to help you make tech work for you. We build smart, scalable, and secure solutions—from cloud services and custom software to IT consulting and support.
+=======
+                To be the go-to tech partner for startups and enterprises, building solutions 
+                that are fast, reliable, and future-ready.
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </p>
             </div>
             

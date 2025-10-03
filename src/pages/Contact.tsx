@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Phone, Mail, Linkedin, Instagram, Facebook, Twitter } from 'lucide-react';
+=======
+import { Phone, Mail, MapPin, Clock, Linkedin, Instagram, Facebook, Twitter } from 'lucide-react';
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
@@ -108,6 +112,25 @@ const Contact = () => {
                     );
                   })}
                 </div>
+<<<<<<< HEAD
+=======
+
+                {/* Business Hours */}
+                <div className="bg-slate-700 p-6 rounded-xl">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <Clock className="text-cyan-400" size={20} />
+                    <h3 className="text-white font-semibold">Business Hours</h3>
+                  </div>
+                  <div className="space-y-2 text-gray-300">
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p>Saturday: 10:00 AM - 4:00 PM</p>
+                    <p>Sunday: Closed</p>
+                    <p className="text-sm text-gray-400 mt-3">
+                      * Response times may vary during weekends and holidays
+                    </p>
+                  </div>
+                </div>
+>>>>>>> ec67f1d3edec18ceff062256b6e57cbd9fb32cce
               </div>
 
               {/* Social Media */}
