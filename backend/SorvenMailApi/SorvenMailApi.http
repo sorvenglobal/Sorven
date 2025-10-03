@@ -1,0 +1,6 @@
+@SorvenMailApi_HostAddress = http://localhost:5047
+
+GET {{SorvenMailApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
